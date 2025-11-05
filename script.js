@@ -43,6 +43,30 @@ const menu = [
         desc: "رقائق ناتشوز مقرمشة مغطاة بصلصة الجبن الغنية وحبيبات اللحم والفلفل الهالبينو الحار.",
         img: "images/BeefCheeseNachos.jpg"
     },
+    {
+        id: 5,
+        name: "ناتشوز اللحم والجبن",
+        category: "مقبلات",
+        price: "35 ريال",
+        desc: "رقائق ناتشوز مقرمشة مغطاة بصلصة الجبن الغنية وحبيبات اللحم والفلفل الهالبينو الحار.",
+        img: "images/BeefCheeseNachos.jpg"
+    },
+    {
+        id: 5,
+        name: "ناتشوز اللحم والجبن",
+        category: "مقبلات",
+        price: "35 ريال",
+        desc: "رقائق ناتشوز مقرمشة مغطاة بصلصة الجبن الغنية وحبيبات اللحم والفلفل الهالبينو الحار.",
+        img: "images/BeefCheeseNachos.jpg"
+    },
+    {
+        id: 5,
+        name: "ناتشوز اللحم والجبن",
+        category: "مقبلات",
+        price: "35 ريال",
+        desc: "رقائق ناتشوز مقرمشة مغطاة بصلصة الجبن الغنية وحبيبات اللحم والفلفل الهالبينو الحار.",
+        img: "images/BeefCheeseNachos.jpg"
+    },
     
     // --- الحلويات (Desserts) ---
     {
@@ -148,3 +172,4 @@ filterBtns.forEach(function (btn) {
         displayMenuItems(menuCategory);
     });
 });
+
