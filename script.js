@@ -2,7 +2,7 @@
 const menu = [
     // --- الأطباق الرئيسية (Main Dishes) ---
     {
-        id: 1,
+        id: 10,
         name: "تاكو اللحم أو الدجاج",
         category: "أطباق رئيسية",
         price: "48 ريال",
@@ -10,7 +10,7 @@ const menu = [
         img: "images/BeeforChickenTacos.jpg"
     },
     {
-        id: 2,
+        id: 11,
         name: "كلاسيك تشيز برجر",
         category: "أطباق رئيسية",
         price: "55 ريال",
@@ -18,7 +18,7 @@ const menu = [
         img: "images/ClassicCheeseburger.jpg"
     },
       {
-        id: 3,
+        id: 12,
         name: "كلاسيك تشيز برجر",
         category: "أطباق رئيسية",
         price: "55 ريال",
@@ -26,7 +26,7 @@ const menu = [
         img: "images/ClassicCheeseburger.jpg"
     },
       {
-        id: 4,
+        id: 13,
         name: "كلاسيك تشيز برجر",
         category: "أطباق رئيسية",
         price: "55 ريال",
@@ -36,7 +36,7 @@ const menu = [
     
     // --- مقبلات (Appetizers) ---
     {
-        id: 5,
+        id: 20,
         name: "ناتشوز اللحم والجبن",
         category: "مقبلات",
         price: "35 ريال",
@@ -44,7 +44,7 @@ const menu = [
         img: "images/BeefCheeseNachos.jpg"
     },
     {
-        id: 5,
+        id: 21,
         name: "ناتشوز اللحم والجبن",
         category: "مقبلات",
         price: "35 ريال",
@@ -52,7 +52,7 @@ const menu = [
         img: "images/BeefCheeseNachos.jpg"
     },
     {
-        id: 5,
+        id: 22,
         name: "ناتشوز اللحم والجبن",
         category: "مقبلات",
         price: "35 ريال",
@@ -60,7 +60,7 @@ const menu = [
         img: "images/BeefCheeseNachos.jpg"
     },
     {
-        id: 5,
+        id: 23,
         name: "ناتشوز اللحم والجبن",
         category: "مقبلات",
         price: "35 ريال",
@@ -70,7 +70,7 @@ const menu = [
     
     // --- الحلويات (Desserts) ---
     {
-        id: 6,
+        id: 30,
         name: "كوكيز سكيلت",
         category: "حلويات",
         price: "38 ريال",
@@ -78,7 +78,7 @@ const menu = [
         img: "images/Cookie Skillet.jpg"
     },
     {
-        id: 7,
+        id: 31,
         name: "كلاسيك تيراميسو",
         category: "حلويات",
         price: "32 ريال",
@@ -86,7 +86,7 @@ const menu = [
         img: "images/ClassicTiramisu.jpg"
     },
     {
-        id: 8,
+        id: 32,
         name: "تشيز كيك شوكولاتة وفستق",
         category: "حلويات",
         price: "40 ريال",
@@ -96,7 +96,7 @@ const menu = [
     
     // --- المشروبات الباردة (Cold Drinks) ---
     {
-        id: 9,
+        id: 40,
         name: "سموذي فراولة كلاسيك",
         category: "مشروبات باردة",
         price: "28 ريال",
@@ -104,7 +104,7 @@ const menu = [
         img: "images/ClassicStrawberrySmoothie.jpg"
     },
     {
-        id: 10,
+        id: 41,
         name: "مياه بيرين فوارة",
         category: "مشروبات باردة",
         price: "10 ريال",
@@ -114,7 +114,7 @@ const menu = [
     
     // --- المشروبات الساخنة (Hot Drinks) ---
     {
-        id: 11,
+        id: 50,
         name: "كلاسيك لاتيه",
         category: "مشروبات ساخنة",
         price: "18 ريال",
@@ -122,7 +122,7 @@ const menu = [
         img: "images/ClassicLatte.jpg"
     },
     {
-        id: 12,
+        id: 51,
         name: "كلاسيك إسبريسو",
         category: "مشروبات ساخنة",
         price: "12 ريال",
@@ -172,4 +172,5 @@ filterBtns.forEach(function (btn) {
         displayMenuItems(menuCategory);
     });
 });
+
 
