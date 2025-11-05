@@ -17,10 +17,26 @@ const menu = [
         desc: "شريحة لحم بقري فاخر، جبنة شيدر ذائبة، خس، بصل، وطماطم، في خبز السمسم المحمص.",
         img: "images/ClassicCheeseburger.jpg"
     },
+      {
+        id: 3,
+        name: "كلاسيك تشيز برجر",
+        category: "أطباق رئيسية",
+        price: "55 ريال",
+        desc: "شريحة لحم بقري فاخر، جبنة شيدر ذائبة، خس، بصل، وطماطم، في خبز السمسم المحمص.",
+        img: "images/ClassicCheeseburger.jpg"
+    },
+      {
+        id: 4,
+        name: "كلاسيك تشيز برجر",
+        category: "أطباق رئيسية",
+        price: "55 ريال",
+        desc: "شريحة لحم بقري فاخر، جبنة شيدر ذائبة، خس، بصل، وطماطم، في خبز السمسم المحمص.",
+        img: "images/ClassicCheeseburger.jpg"
+    },
     
     // --- مقبلات (Appetizers) ---
     {
-        id: 3,
+        id: 5,
         name: "ناتشوز اللحم والجبن",
         category: "مقبلات",
         price: "35 ريال",
@@ -30,7 +46,7 @@ const menu = [
     
     // --- الحلويات (Desserts) ---
     {
-        id: 4,
+        id: 6,
         name: "كوكيز سكيلت",
         category: "حلويات",
         price: "38 ريال",
@@ -38,7 +54,7 @@ const menu = [
         img: "images/Cookie Skillet.jpg"
     },
     {
-        id: 5,
+        id: 7,
         name: "كلاسيك تيراميسو",
         category: "حلويات",
         price: "32 ريال",
@@ -46,7 +62,7 @@ const menu = [
         img: "images/ClassicTiramisu.jpg"
     },
     {
-        id: 6,
+        id: 8,
         name: "تشيز كيك شوكولاتة وفستق",
         category: "حلويات",
         price: "40 ريال",
@@ -56,7 +72,7 @@ const menu = [
     
     // --- المشروبات الباردة (Cold Drinks) ---
     {
-        id: 7,
+        id: 9,
         name: "سموذي فراولة كلاسيك",
         category: "مشروبات باردة",
         price: "28 ريال",
@@ -64,7 +80,7 @@ const menu = [
         img: "images/ClassicStrawberrySmoothie.jpg"
     },
     {
-        id: 8,
+        id: 10,
         name: "مياه بيرين فوارة",
         category: "مشروبات باردة",
         price: "10 ريال",
@@ -74,7 +90,7 @@ const menu = [
     
     // --- المشروبات الساخنة (Hot Drinks) ---
     {
-        id: 9,
+        id: 11,
         name: "كلاسيك لاتيه",
         category: "مشروبات ساخنة",
         price: "18 ريال",
@@ -82,7 +98,7 @@ const menu = [
         img: "images/ClassicLatte.jpg"
     },
     {
-        id: 10,
+        id: 12,
         name: "كلاسيك إسبريسو",
         category: "مشروبات ساخنة",
         price: "12 ريال",
