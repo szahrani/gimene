@@ -1,0 +1,136 @@
+/* تنسيق عام (يُفضل استخدام خط عربي أنيق) */
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap');
+
+:root {
+    --primary-color: #A32828; /* لون أساسي (أحمر داكن) */
+    --secondary-color: #F8D783; /* لون ثانوي (ذهبي/أصفر فاتح) */
+    --text-color: #333;
+    --bg-color: #f7f7f7;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Cairo', sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    line-height: 1.6;
+    direction: rtl; /* لغة عربية */
+}
+
+.header {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 5px;
+}
+
+/* تنسيق أزرار التصنيفات */
+.categories {
+    text-align: center;
+    padding: 20px 0;
+    background-color: white;
+    border-bottom: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.filter-btn {
+    background: none;
+    border: 2px solid var(--primary-color);
+    color: var(--primary-color);
+    padding: 8px 15px;
+    margin: 0 5px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-weight: 700;
+}
+
+.filter-btn:hover, .filter-btn.active {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+/* تنسيق حاوية المنيو */
+.menu-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    padding: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* تنسيق عنصر المنيو الواحد */
+.menu-item {
+    display: flex;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.menu-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+.menu-item img {
+    width: 120px;
+    height: 100%;
+    object-fit: cover;
+}
+
+.item-info {
+    padding: 15px;
+    flex-grow: 1;
+}
+
+.item-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.item-header h3 {
+    font-size: 1.25rem;
+    color: var(--primary-color);
+}
+
+.price {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--secondary-color);
+}
+
+.item-desc {
+    font-size: 0.9rem;
+    color: #666;
+}
+
+/* تنسيق الشاشات الصغيرة */
+@media (max-width: 768px) {
+    .menu-container {
+        grid-template-columns: 1fr;
+        padding: 20px;
+    }
+    .menu-item {
+        flex-direction: column;
+        align-items: center;
+    }
+    .menu-item img {
+        width: 100%;
+        height: 180px;
+    }
+}

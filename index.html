@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>منيو مطعمك - الرقمي</title>
+    <link rel="stylesheet" href="style.css">
+    </head>
+<body>
+
+    <header class="header">
+        <h1>مطعم النكهات الأصيلة</h1>
+        <p>استمتع بتجربة طعام لا تُنسى</p>
+    </header>
+
+    <nav class="categories">
+        <button class="filter-btn active" data-category="الكل">الكل</button>
+        <button class="filter-btn" data-category="مقبلات">مقبلات</button>
+        <button class="filter-btn" data-category="أطباق رئيسية">أطباق رئيسية</button>
+        <button class="filter-btn" data-category="حلويات">حلويات</button>
+    </nav>
+
+    <main class="menu-container" id="menu-items">
+        <article class="menu-item" data-category="أطباق رئيسية">
+            <img src="placeholder.jpg" alt="طبق المنسف">
+            <div class="item-info">
+                <div class="item-header">
+                    <h3>المنسف الأردني</h3>
+                    <span class="price">45 ريال</span>
+                </div>
+                <p class="item-desc">طبق تقليدي فاخر من الأرز واللحم البلدي المطبوخ في اللبن (الجميد).</p>
+            </div>
+        </article>
+        
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
